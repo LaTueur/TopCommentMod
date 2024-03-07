@@ -1,0 +1,230 @@
+﻿mesopotamian_religion = {
+	family = rf_pagan
+
+	doctrine = pagan_hostility_doctrine
+
+	pagan_roots = yes
+
+	#Main Group
+	doctrine = doctrine_no_head
+	doctrine = doctrine_gender_male_dominated
+	doctrine = doctrine_pluralism_pluralistic
+	doctrine = doctrine_theocracy_temporal
+
+	#Marriage
+	doctrine = doctrine_concubines
+	doctrine = doctrine_divorce_allowed
+	doctrine = doctrine_bastardry_legitimization
+	doctrine = doctrine_consanguinity_aunt_nephew_and_uncle_niece
+
+	#Crimes
+	doctrine = doctrine_homosexuality_accepted
+	doctrine = doctrine_adultery_men_accepted
+	doctrine = doctrine_adultery_women_accepted
+	doctrine = doctrine_kinslaying_close_kin_crime
+	doctrine = doctrine_deviancy_shunned
+	doctrine = doctrine_witchcraft_shunned
+
+	#Clerical Functions
+	doctrine = doctrine_clerical_function_taxation
+	doctrine = doctrine_clerical_gender_male_only
+	doctrine = doctrine_clerical_marriage_allowed
+	doctrine = doctrine_clerical_succession_temporal_appointment
+
+	#Allow pilgrimages
+	doctrine = doctrine_pilgrimage_encouraged
+
+	#Funeral tradition
+	doctrine = doctrine_funeral_stoic
+
+	traits = {
+		virtues = { brave honest patient }
+		sins = { craven deceitful impatient }
+	}
+
+	custom_faith_icons = {
+		custom_faith_1 custom_faith_2 custom_faith_3 custom_faith_4 custom_faith_5 custom_faith_6 custom_faith_7 custom_faith_8 custom_faith_9 custom_faith_10 dualism_custom_1 zoroastrian_custom_1 zoroastrian_custom_2 buddhism_custom_1 buddhism_custom_2 buddhism_custom_3 buddhism_custom_4 taoism_custom_1 yazidi_custom_1 sunni_custom_2 sunni_custom_3 sunni_custom_4 muhakkima_1 muhakkima_2 muhakkima_4 muhakkima_5 muhakkima_6 judaism_custom_1 custom_faith_fp1_fenrir custom_faith_fp1_irminsul custom_faith_fp1_jormungandr custom_faith_fp1_odins_ravens custom_faith_fp1_runestone_moon custom_faith_fp1_thors_hammer custom_faith_fp1_valknut custom_faith_fp1_yggdrasil custom_faith_boromian_circles custom_faith_lotus custom_faith_aum_tibetan custom_faith_pentagram custom_faith_pentagram_inverted custom_faith_burning_bush custom_faith_allah custom_faith_gankyil custom_faith_eye_of_providence custom_faith_dove custom_faith_ichthys custom_faith_lamb custom_faith_black_sheep custom_faith_ankh custom_faith_chi_rho custom_faith_hamsa custom_faith_cool_s
+	}
+
+	holy_order_names = {
+		{ name = "holy_order_faithful_of_highgod" }
+	}
+
+	holy_order_maa = { bowmen }
+
+	localization = {
+		HighGodName = mesopotamian_high_god_name
+		HighGodName2 = mesopotamian_high_god_name_2
+		HighGodNamePossessive = mesopotamian_high_god_name_possessive
+		HighGodNameSheHe = CHARACTER_SHEHE_HE
+		HighGodHerselfHimself = CHARACTER_HIMSELF
+		HighGodHerHis = CHARACTER_HERHIS_HIS
+		HighGodNameAlternate = mesopotamian_high_god_name_alternate
+		HighGodNameAlternatePossessive = mesopotamian_high_god_name_alternate_possessive
+
+		#Creator
+		CreatorName = mesopotamian_creator_god_name
+		CreatorNamePossessive = mesopotamian_creator_god_name_possessive
+		CreatorSheHe = CHARACTER_SHEHE_HE
+		CreatorHerHis = CHARACTER_HERHIS_HIS
+		CreatorHerHim = CHARACTER_HERHIM_HIM
+
+		#HealthGod
+		HealthGodName = mesopotamian_health_god_name
+		HealthGodNamePossessive = mesopotamian_health_god_name_possessive
+		HealthGodSheHe = CHARACTER_SHEHE_HE
+		HealthGodHerHis = CHARACTER_HERHIS_HIS
+		HealthGodHerHim = CHARACTER_HERHIM_HIM
+		
+		#FertilityGod
+		FertilityGodName = mesopotamian_fertility_god_name
+		FertilityGodNamePossessive = mesopotamian_fertility_god_name_possessive
+		FertilityGodSheHe = CHARACTER_SHEHE_SHE
+		FertilityGodHerHis = CHARACTER_HERHIS_HER
+		FertilityGodHerHim = CHARACTER_HERHIM_HER
+
+		#WealthGod
+		WealthGodName = mesopotamian_wealth_god_name
+		WealthGodNamePossessive = mesopotamian_wealth_god_name_possessive
+		WealthGodSheHe = CHARACTER_SHEHE_HE
+		WealthGodHerHis = CHARACTER_HERHIS_HIS
+		WealthGodHerHim = CHARACTER_HERHIM_HIM
+
+		#HouseholdGod
+		HouseholdGodName = mesopotamian_household_god_name
+		HouseholdGodNamePossessive = mesopotamian_household_god_name_possessive
+		HouseholdGodSheHe = CHARACTER_SHEHE_HE
+		HouseholdGodHerHis = CHARACTER_HERHIS_HIS
+		HouseholdGodHerHim = CHARACTER_HERHIM_HIM
+
+		#FateGod
+		FateGodName = mesopotamian_fate_god_name
+		FateGodNamePossessive = mesopotamian_fate_god_name_possessive
+		FateGodSheHe = CHARACTER_SHEHE_HE
+		FateGodHerHis = CHARACTER_HERHIS_HIS
+		FateGodHerHim = CHARACTER_HERHIM_HIM
+
+		#KnowledgeGod
+		KnowledgeGodName = mesopotamian_knowledge_god_name
+		KnowledgeGodNamePossessive = mesopotamian_knowledge_god_name_possessive
+		KnowledgeGodSheHe = CHARACTER_SHEHE_HE
+		KnowledgeGodHerHis = CHARACTER_HERHIS_HIS
+		KnowledgeGodHerHim = CHARACTER_HERHIM_HIM
+
+		#WarGod
+		WarGodName = mesopotamian_war_god_name
+		WarGodNamePossessive = mesopotamian_war_god_name_possessive
+		WarGodSheHe = CHARACTER_SHEHE_HE
+		WarGodHerHis = CHARACTER_HERHIS_HIS
+		WarGodHerHim = CHARACTER_HERHIM_HIM
+
+		#TricksterGod
+		TricksterGodName = mesopotamian_trickster_god_name
+		TricksterGodNamePossessive = mesopotamian_trickster_god_name_possessive
+		TricksterGodSheHe = CHARACTER_SHEHE_HE
+		TricksterGodHerHis = CHARACTER_HERHIS_HIS
+		TricksterGodHerHim = CHARACTER_HERHIM_HIM
+
+		#NightGod
+		NightGodName = mesopotamian_night_god_name
+		NightGodNamePossessive = mesopotamian_night_god_name_possessive
+		NightGodSheHe = CHARACTER_SHEHE_HE
+		NightGodHerHis = CHARACTER_HERHIS_HIS
+		NightGodHerHim = CHARACTER_HERHIM_HIM
+
+		#WaterGod
+		WaterGodName = mesopotamian_water_god_name
+		WaterGodNamePossessive = mesopotamian_water_god_name_possessive
+		WaterGodSheHe = CHARACTER_SHEHE_SHE
+		WaterGodHerHis = CHARACTER_HERHIS_HER
+		WaterGodHerHim = CHARACTER_HERHIM_HER
+
+
+		PantheonTerm = mesopotamian_mother_earth_father_sky
+		PantheonTerm2 = mesopotamian_mother_earth_father_sky_2
+		PantheonTerm3 = mesopotamian_mother_earth_father_sky_3
+		PantheonTermHasHave = pantheon_term_have
+		GoodGodNames = { mesopotamian_high_god_name mesopotamian_high_god_name_alternate mesopotamian_creator_god_name mesopotamian_fertility_god_name mesopotamian_knowledge_god_name }
+		DevilName = mesopotamian_devil_name
+		DevilNamePossessive = mesopotamian_devil_name_possessive
+		DevilSheHe = CHARACTER_SHEHE_IT
+		DevilHerHis = CHARACTER_HERHIS_ITS
+		DevilHerselfHimself = mesopotamian_devil_herselfhimself
+		EvilGodNames = { mesopotamian_devil_name mesopotamian_evil_god_decay }
+		HouseOfWorship = mesopotamian_house_of_worship
+		HouseOfWorship2 = mesopotamian_house_of_worship_2
+		HouseOfWorship3 = mesopotamian_house_of_worship_3
+		HouseOfWorshipPlural = mesopotamian_house_of_worship_plural
+		ReligiousSymbol = mesopotamian_religious_symbol
+		ReligiousSymbol2 = mesopotamian_religious_symbol_2
+		ReligiousSymbol3 = mesopotamian_religious_symbol_3
+		ReligiousText = mesopotamian_religious_text
+		ReligiousText2 = mesopotamian_religious_text_2
+		ReligiousText3 = mesopotamian_religious_text_3
+		ReligiousHeadName = mesopotamian_religious_head_title
+		ReligiousHeadTitleName = mesopotamian_religious_head_title_name
+		DevoteeMale = mesopotamian_devotee
+		DevoteeMalePlural = mesopotamian_devoteeplural
+		DevoteeFemale = mesopotamian_devotee
+		DevoteeFemalePlural = mesopotamian_devoteeplural
+		DevoteeNeuter = mesopotamian_devotee
+		DevoteeNeuterPlural = mesopotamian_devoteeplural
+		PriestMale = mesopotamian_priest
+		PriestMalePlural = mesopotamian_priest_plural
+		PriestFemale = mesopotamian_priest
+		PriestFemalePlural = mesopotamian_priest_plural
+		PriestNeuter = mesopotamian_priest
+		PriestNeuterPlural = mesopotamian_priest_plural
+		AltPriestTermPlural = mesopotamian_priest_alternate_plural
+		BishopMale = mesopotamian_priest
+		BishopMalePlural = mesopotamian_priest_plural
+		BishopFemale = mesopotamian_priest
+		BishopFemalePlural = mesopotamian_priest_plural
+		BishopNeuter = mesopotamian_priest
+		BishopNeuterPlural = mesopotamian_priest_plural
+		DivineRealm = mesopotamian_divine_realm
+		DivineRealm2 = mesopotamian_divine_realm_2
+		DivineRealm3 = mesopotamian_divine_realm_3
+		PositiveAfterLife = mesopotamian_divine_realm
+		PositiveAfterLife2 = mesopotamian_divine_realm_2
+		PositiveAfterLife3 = mesopotamian_divine_realm_3
+		NegativeAfterLife = mesopotamian_afterlife
+		NegativeAfterLife2 = mesopotamian_afterlife_2
+		NegativeAfterLife3 = mesopotamian_afterlife_3
+		DeathDeityName = mesopotamian_death_deity_name
+		DeathDeityNamePossessive = mesopotamian_death_deity_name_possessive
+		DeathDeitySheHe = CHARACTER_SHEHE_SHE
+		DeathDeityHerHis = CHARACTER_SHEHE_HER
+		DeathDeityHerHim = CHARACTER_HERHIM_HER
+		WitchGodName = witchgodname_mesopotamian_the_shadow
+		WitchGodNamePossessive = witchgodname_mesopotamian_the_shadow_possessive
+		WitchGodSheHe = CHARACTER_SHEHE_IT
+		WitchGodHerHis = CHARACTER_HERHIS_ITS
+		WitchGodHerHim = CHARACTER_HERHIM_IT
+		WitchGodMistressMaster = witch_spirit
+ 		WitchGodMotherFather = witch_source
+		
+		GHWName = ghw_great_holy_war
+		GHWNamePlural = ghw_great_holy_wars
+	}
+
+	faiths = {
+		mesopotamian_pagan = {
+			color = { 90 65 65 }
+			icon = zurvanism
+			reformed_icon = zurvanism
+
+			holy_site = baghdad
+			holy_site = damascus
+			holy_site = adur_farnbag
+			holy_site = takht-e_soleyman
+			holy_site = yazd
+
+			doctrine = unreformed_faith_doctrine
+
+			doctrine = tenet_legalism
+			doctrine = tenet_literalism
+			doctrine = tenet_astrology
+		}
+	}
+}

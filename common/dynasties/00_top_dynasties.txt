@@ -1,0 +1,4 @@
+﻿top_babylonian_dynasty = {
+	name = "dynn_Nebuchadnezzar"
+	culture = "babylonian"
+}

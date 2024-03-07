@@ -1,0 +1,26 @@
+﻿top_babylonian_ruler = {
+	name = "Nebuchadnezzar"
+	dynasty = top_babylonian_dynasty
+	religion = "mesopotamian_pagan"
+	culture = "babylonian"
+	1040.1.1 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		effect = {
+			add_trait = lifestyle_mystic
+			add_trait_xp = {
+				trait = lifestyle_mystic
+				value = {
+					integer_range = {
+						min = medium_lifestyle_random_xp_low
+						max = medium_lifestyle_random_xp_high
+					}
+				}
+			}
+		}
+	}
+	1080.1.1 = {
+		death = yes
+	}
+}
